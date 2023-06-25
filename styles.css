@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-cont {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  background-color: rgb(102, 198, 110);
+}
+
+.hands {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 10vh;
+  width: 5vw; */
+}
+
+.play {
+  font-size: 5rem;
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.VSdisplay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#player1,
+#comp {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 8rem;
+}
+
+#vs {
+  font-size: 5rem;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 8rem;
+}
+.vsInput {
+  padding: 100px 0;
+}
+
+h2,
+.vsInput {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  /* background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC)
+    repeat scroll transparent\9; ie fallback png background image */
+  z-index: 9999;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  color: black;
+  background-color: rgb(171, 157, 139);
+  border: 1px solid saddlebrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#username {
+  background-color: rgb(85, 83, 83);
+  margin: 20px;
+  font-size: 3rem;
+  text-align: center;
+  border: none;
+  height: 100px;
+  caret-color: rgb(255, 255, 255);
+}
+
+::placeholder {
+  color: rgba(212, 222, 219, 0.407);
+}
+
+.hidden {
+  display: none;
+}
